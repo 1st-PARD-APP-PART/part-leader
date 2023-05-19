@@ -6,6 +6,23 @@ version: 0.1.0
 environment:
   sdk: '>=3.0.1 <4.0.0'
 
+assets:
+  - assets/images/
+
+fonts:
+  - family: AppleSDGothicNeo
+    fonts:
+      - asset: assets/fonts/AppleSDGothicNeoR.ttf
+  - family: NanumGothic
+    fonts:
+      - asset: assets/fonts/NanumGothic.ttf
+  - family: NanumSqaureNeo
+    fonts:
+      - asset: assets/fonts/NanumSquareNeoOTF-Rg.otf
+  - family: NotoSansMonoCJK
+    fonts:
+      - asset: assets/fonts/NotoSansMonoCJKkr-Regular.otf
+
 dependencies:
   cloud_firestore: ^4.7.1
   firebase_core: ^2.13.0

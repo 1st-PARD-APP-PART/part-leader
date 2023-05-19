@@ -1,5 +1,6 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
+import 'package:idih/util/text_styles.dart';
 
 import 'firebase_options.dart';
 
@@ -15,10 +16,14 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: Scaffold(
         body: Center(
-          child: Text('Hello World!'),
+          child: Text(
+            'Hello World!',
+            style: title(color: Colors.black),
+          ),
         ),
       ),
     );
